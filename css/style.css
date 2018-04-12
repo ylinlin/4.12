@@ -85,3 +85,58 @@ nav>a{
 	justify-content: center;
 }
 
+
+.main{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.main>dl{
+	margin-top: 5px;
+	width: 100%;
+	display: flex;
+
+}
+dl>dt{
+	width: 40%;
+}
+dl>dd{
+	width: 60%;
+	line-height: 35px;
+}
+dt>img{
+	width: 100%;
+}
+p>span{
+	display: inline-block;
+	width: 80%;
+}
+p>em{
+
+	border: 1px solid orange;
+	color:orange;
+	display: inline-block;
+
+}
+p>b{
+	color: orange;
+}
+p>i{
+	color: orange;
+}
+
+footer{
+	display: flex;
+}
+footer>a{
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+p>img{
+	width: 35%;
+	margin-top: 5px;
+	line-height: 5px;
+}
